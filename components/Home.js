@@ -52,7 +52,7 @@ function Home() {
     }
   }
   useEffect(() => {
-    fetch("https://vercel.com/tugcekoksal/movizapp/Bhinj5kZRzSN4rMZnBgbKM8q87L7#:~:text=Domains-,movizapp.vercel.app,-%2B1/movies")
+    fetch("https://movizapp.vercel.app/movies")
       .then((response) => response.json())
       .then((data) => {
         console.log(data.movies)
