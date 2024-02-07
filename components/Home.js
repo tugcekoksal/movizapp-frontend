@@ -9,14 +9,7 @@ import styles from "../styles/Home.module.css"
 function Home() {
   const [likedMovies, setLikedMovies] = useState([])
   const [moviesData, setMoviesData] = useState([
-    {
-      title: "Forrest Gump",
-      poster: "forrestgump.jpg",
-      voteAverage: 9.2,
-      voteCount: 22_705,
-      overview:
-        "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case.",
-    },
+   
   ])
 
   // Liked movies (inverse data flow)
