@@ -52,7 +52,7 @@ function Home() {
     }
   }
   useEffect(() => {
-    fetch("https://movizapp.vercel.app/movies")
+    fetch("https://movizapp-git-main-tugcekoksal.vercel.app/movies")
       .then((response) => response.json())
       .then((data) => {
         console.log(data.movies)
